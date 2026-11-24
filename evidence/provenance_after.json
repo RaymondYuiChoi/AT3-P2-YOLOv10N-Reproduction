@@ -1,0 +1,19 @@
+{
+  "historical_inventories_unchanged": {
+    "AT3-P2-YOLOv10N-EXP20-01": {
+      "files_verified": 4552,
+      "manifest_sha256": "9a1e3339bc5aaabee314d80424f73c9de85fbcf17b2184b27bf42784bf8d10d5"
+    },
+    "AT3-P2-YOLOv10N-PILOT-01": {
+      "files_verified": 4479,
+      "manifest_sha256": "eba61943540e4dbe5680fbc2c764b944971e8c7e699c28d7189ceacd6bcb9b72"
+    },
+    "AT3-P2-YOLOv10N-NUMERIC-01": {
+      "files_verified": 826,
+      "manifest_sha256": "b4a82a1322a03b1358d17c7b0060049936956c9b4a27e08d32caee4c26a579ef"
+    }
+  },
+  "official_clean": true,
+  "gate_locked_files_unchanged": true,
+  "commit": "799ff3be47d21173bcf29b351820d4b8e955e0fe"
+}

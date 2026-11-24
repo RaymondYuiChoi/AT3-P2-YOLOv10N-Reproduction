@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "dual_disposable_update": 1,
+  "formal_updates_at_gate": 0,
+  "hashes": {
+    "A19": "83703f3ebd6b7551bd1fe933bd2e879aadcf05f1188b879e22018f83847cd6f8",
+    "A20": "d695cbc991e805e8807e5d2bf151cb3916529db6818eeb52a510d4b3514624d8",
+    "O2O_init": "923bad8cada1af887d405651b8ee47fb5c73c6e31c75432b8730df7a10c5aafb",
+    "Dual_init": "e34b48faddae298e299eaf5c93da1934873b871079a60de467a50cbccb6e446b"
+  },
+  "images_checked": 1250,
+  "paired_lr_steps": 5000,
+  "official_commit": "799ff3be47d21173bcf29b351820d4b8e955e0fe",
+  "locked_files": {
+    "tools/train.py": "b3ed3117e61eb4bcbb934f32991961a163f18d3af170d1f76086cc2741468fa0",
+    "tools/runtime.py": "e36800a28e2d917abf0a9de3ce380ac913d9abde78fe798a72e44aad629d60b9",
+    "tools/evaluation.py": "cf4ae35431c70e61b3aebb8a5f43c405f8ded7ca5fcb75141f3a17ab8aca14a9",
+    "tools/observations.py": "4f3abd4932569623e4850c3a60df0f0e9073fc38662b36846bd494ba4d961f02",
+    "tools/operator_trace.py": "cef06d394371483836ea13b47ef2c95d8a90b58e850a70e566bafccf38b7fe0a",
+    "tools/voc_loader.py": "cba32eac776ea41d0cceb777cc69d3c70b556fa8941f8f344b8c9be10516d0c5",
+    "tools/resume_check.py": "c6564ab95b7e10246eaf1c2bc8c439eb9f710f0edfb96715ce229e681fb4a054",
+    "research/yolov10/ultralytics/nn/modules/block.py": "de4b8d4128516e17ddb9c47c4e6a2f897ba25ac2907e40100988df5bb19be092",
+    "research/yolov10/at3_variant.py": "48f9cbbac70b9960893e41b29eb154cf6a9f95a9b4f96ff00d22ed9656302739",
+    "configs/lr_5000.csv": "4fca54023654e41a4a175efafe658c6b4796b06b56f374015a633d28ee6a168f",
+    "evidence/paired_image_pixels.json": "80f31873f3e42a0445af5c277635dfc8a8ac21f409d7c194f51b69378730f038",
+    "evidence/paired_plans.json": "840c3c83c3fbb8981965adeccdcdbc545bc2ae9ec6e99e47e9b925062b49d90e",
+    "evidence/freeze.json": "43b9d639ebdc5c50663f1de2adb74222257aaa9c40782f63a06d334f9fc53c3b",
+    "configs/O2M.json": "cb5f6f80096ae15800ea383d9c7f1acd80c5d8bccae115fdda34ff17eccb8c60",
+    "configs/O2O.json": "4ebf1717d7ac859236ed6a5e5a9bc938046fc29a9b07b002aec4ac5b9f07d406",
+    "configs/Dual.json": "dbb13584c74fad4949ecd98caa04342bd0de3cf6feaa60f28ca8fcf0037b8ae5"
+  }
+}

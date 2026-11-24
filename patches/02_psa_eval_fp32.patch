@@ -1,0 +1,32 @@
+diff --git a/ultralytics/nn/modules/block.py b/ultralytics/nn/modules/block.py
+index b76a9595..332a5efe 100644
+--- a/ultralytics/nn/modules/block.py
++++ b/ultralytics/nn/modules/block.py
+@@ -788,11 +788,15 @@ class Attention(nn.Module):
+         qkv = self.qkv(x)
+         q, k, v = qkv.view(B, self.num_heads, -1, N).split([self.key_dim, self.key_dim, self.head_dim], dim=2)
+ 
+-        attn = (
+-            (q.transpose(-2, -1) @ k) * self.scale
+-        )
+-        attn = attn.softmax(dim=-1)
+-        x = (v @ attn.transpose(-2, -1)).view(B, -1, H, W) + self.pe(v.reshape(B, -1, H, W))
++        if not self.training:
++            with torch.autocast(device_type=q.device.type, enabled=False):
++                logits = q.float().transpose(-2, -1) @ k.float()
++                attn = (logits * self.scale).softmax(dim=-1)
++                weighted = (v.float() @ attn.transpose(-2, -1)).to(v.dtype)
++        else:
++            attn = ((q.transpose(-2, -1) @ k) * self.scale).softmax(dim=-1)
++            weighted = v @ attn.transpose(-2, -1)
++        x = weighted.view(B, -1, H, W) + self.pe(v.reshape(B, -1, H, W))
+         x = self.proj(x)
+         return x
+ 
+@@ -824,4 +828,4 @@ class SCDown(nn.Module):
+         self.cv2 = Conv(c2, c2, k=k, s=s, g=c2, act=False)
+ 
+     def forward(self, x):
+-        return self.cv2(self.cv1(x))
+\ No newline at end of file
++        return self.cv2(self.cv1(x))

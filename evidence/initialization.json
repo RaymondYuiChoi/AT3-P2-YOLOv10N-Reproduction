@@ -1,0 +1,58 @@
+{
+  "O2M": {
+    "file_sha256": "923bad8cada1af887d405651b8ee47fb5c73c6e31c75432b8730df7a10c5aafb",
+    "tensor_sha256": "d4e00d9243c90725fd10b08876dcd3f00109e1d015fc422b30264abc8ca3f768",
+    "parts": {
+      "backbone": "653f68babb8b32c9dd7018bea12bb065a70183df33f71bfe0a27e2dcdb95f6fd",
+      "neck": "a4b48110d28f6870474a3b8e89acdc6bcad0b3b945e6cebc9442fae653e194fc",
+      "main_head": "d295f9de7b0b8473cca36d325995184fb1ab8995039fe03c2daa408fd12ca3df",
+      "dfl": "8043a10200171ebf34b54cf3070fe302bd4963151a5ca4d06fc7542dbd60bbfe"
+    },
+    "parameters": 2280284,
+    "trainable": 2280268,
+    "trainable_by_region": {
+      "backbone": 1198928,
+      "neck": 646784,
+      "head_main": 434556
+    },
+    "heads": 1
+  },
+  "O2O": {
+    "file_sha256": "923bad8cada1af887d405651b8ee47fb5c73c6e31c75432b8730df7a10c5aafb",
+    "tensor_sha256": "d4e00d9243c90725fd10b08876dcd3f00109e1d015fc422b30264abc8ca3f768",
+    "parts": {
+      "backbone": "653f68babb8b32c9dd7018bea12bb065a70183df33f71bfe0a27e2dcdb95f6fd",
+      "neck": "a4b48110d28f6870474a3b8e89acdc6bcad0b3b945e6cebc9442fae653e194fc",
+      "main_head": "d295f9de7b0b8473cca36d325995184fb1ab8995039fe03c2daa408fd12ca3df",
+      "dfl": "8043a10200171ebf34b54cf3070fe302bd4963151a5ca4d06fc7542dbd60bbfe"
+    },
+    "parameters": 2280284,
+    "trainable": 2280268,
+    "trainable_by_region": {
+      "backbone": 1198928,
+      "neck": 646784,
+      "head_main": 434556
+    },
+    "heads": 1
+  },
+  "Dual": {
+    "file_sha256": "e34b48faddae298e299eaf5c93da1934873b871079a60de467a50cbccb6e446b",
+    "tensor_sha256": "a83f5291710ae259cfdc30fd9fbd6e44b60f5b21d097310e5311c48f9bf8c108",
+    "parts": {
+      "backbone": "653f68babb8b32c9dd7018bea12bb065a70183df33f71bfe0a27e2dcdb95f6fd",
+      "neck": "a4b48110d28f6870474a3b8e89acdc6bcad0b3b945e6cebc9442fae653e194fc",
+      "main_head": "d295f9de7b0b8473cca36d325995184fb1ab8995039fe03c2daa408fd12ca3df",
+      "one2one_head": "d295f9de7b0b8473cca36d325995184fb1ab8995039fe03c2daa408fd12ca3df",
+      "dfl": "8043a10200171ebf34b54cf3070fe302bd4963151a5ca4d06fc7542dbd60bbfe"
+    },
+    "parameters": 2714840,
+    "trainable": 2714824,
+    "trainable_by_region": {
+      "backbone": 1198928,
+      "neck": 646784,
+      "head_main": 434556,
+      "head_o2o": 434556
+    },
+    "heads": 2
+  }
+}

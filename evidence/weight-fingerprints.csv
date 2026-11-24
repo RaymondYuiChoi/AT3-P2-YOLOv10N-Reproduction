@@ -1,0 +1,9 @@
+﻿filename,role,bytes,sha256,archive_path,acquisition,distribution
+Dual_E20_last.pt,E20 comparison,11119387,62dede293f3816f5999dca678938ad5011874668387064f3a65011e0f29c5971,runs/Dual/weights/last.pt,authorized course research archive,excluded / no separate redistribution clearance
+init_Dual.pt,paired initial state,11139291,e34b48faddae298e299eaf5c93da1934873b871079a60de467a50cbccb6e446b,weights/init_Dual.pt,authorized course research archive,excluded / no separate redistribution clearance
+init_single_shared.pt,paired initial state,9347723,923bad8cada1af887d405651b8ee47fb5c73c6e31c75432b8730df7a10c5aafb,weights/init_O2M.pt,authorized course research archive,excluded / no separate redistribution clearance
+O2M_E20_last.pt,E20 comparison,9332619,d695cbc991e805e8807e5d2bf151cb3916529db6818eeb52a510d4b3514624d8,runs/O2M/weights/last.pt,authorized course research archive,excluded / no separate redistribution clearance
+O2O_E20_last.pt,E20 comparison,9332619,dbdce258545dbdc1d23de74093b271588f5f791f206448dc278402c04d1ef31e,runs/O2O/weights/last.pt,authorized course research archive,excluded / no separate redistribution clearance
+Dual_E19_best.pt,subset best,11119387,2273b358db3112f1e5b2e0c91dbbfccf4b8819d042908866b0703e744ecb726c,runs/Dual/weights/best.pt,authorized course research archive,excluded / no separate redistribution clearance
+O2M_E19_best.pt,subset best,9332619,83703f3ebd6b7551bd1fe933bd2e879aadcf05f1188b879e22018f83847cd6f8,runs/O2M/weights/best.pt,authorized course research archive,excluded / no separate redistribution clearance
+O2O_E12_best.pt,subset best,9332619,1c1c8c152c0fe18ea1f6913bac50dc2107149899606352a9c1e2492cdb9e56b7,runs/O2O/weights/best.pt,authorized course research archive,excluded / no separate redistribution clearance

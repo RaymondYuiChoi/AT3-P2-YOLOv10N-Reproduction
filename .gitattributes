@@ -1,0 +1,4 @@
+# Frozen research sources, CSVs and checksum manifests must survive Windows checkouts byte-for-byte.
+* -text
+# Unified diff uses a single space to represent unchanged empty context lines.
+*.patch whitespace=-blank-at-eol,cr-at-eol
